@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Aplicatie Calculator</title>
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="calculatorCSS.css">
+
+  
+  <script src="calculatorJavascript.js"></script>
+</head><body>
+<div align="left">
+<div style="background: rgb(53, 71, 45) none repeat scroll 0% 50%; width: 265px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+<form id="frm" name="frm"> <input class="inputRezultat" id="rezultat" name="rezultat" value="0"> <br>
+  <br>
+  <div>
+  <p class="inputMemorie" id="memorie" name="memorie" style="visibility: hidden;"> M: </p>
+  </div>
+  <input class="buton" name="C" value="C" onclick="stergeTot()" type="button"> <input class="buton" name="radical" value="&#8730;" onclick="calcRadical()" type="button"> <input class="bSterge" name="backspace" value="&#8592;" onclick="sterge()" type="button"> <br>
+  <input class="buton" name="MC" value="MC" onclick="memoryClear()" type="button"> <input class="buton" name="M+" value="M+" onclick="memoryPlus()" type="button"> <input class="buton" name="M-" value="M-" onclick="memoryMinus()" type="button"> <input class="buton" name="MR" value="MR" onclick="memoryRead()" type="button"> <br>
+  <input class="buton" name="1" value="1" onclick="run1()" type="button">
+  <input class="buton" name="2" value="2" onclick="run2()" type="button">
+  <input class="buton" name="3" value="3" onclick="run3()" type="button">
+  <input class="buton" name="+" value="+" onclick="adunare()" type="button"> <br>
+  <input class="buton" name="4" value="4" onclick="run4()" type="button">
+  <input class="buton" name="5" value="5" onclick="run5()" type="button">
+  <input class="buton" name="6" value="6" onclick="run6()" type="button">
+  <input class="buton" name="-" value="-" onclick="scadere()" type="button"> <br>
+  <input class="buton" name="7" value="7" onclick="run7()" type="button">
+  <input class="buton" name="8" value="8" onclick="run8()" type="button">
+  <input class="buton" name="9" value="9" onclick="run9()" type="button">
+  <input class="buton" name="/" value="/" onclick="impartire()" type="button"> <br>
+  <input class="buton" name="0" value="0" onclick="run0()" type="button">
+  <input class="buton" name="." value="." onclick="punct()" type="button"> <input class="buton" name="%" value="%" onclick="procent()" type="button"> <input class="buton" name="*" value="*" onclick="inmultire()" type="button"> <br>
+  <div id="butonEgal"> <input class="bEgal" name="=" value="=" onclick="egalCu()" type="button"> </div>
+</form>
+</div>
+
+
+</div>
+
+</body></html>

@@ -1,0 +1,51 @@
+.inputRezultat
+{
+	background-color : #999900; 
+    color: white;
+    text-align: right;
+	font-weight: bold;
+	margin:20px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+
+.inputMemorie
+{
+	color: #66CCFF;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.buton 
+{
+	background-color : #0047b3; 
+    color: orange;
+    text-align: center;
+	font-weight: bold; 
+	margin: 5px;
+	width:50px;
+}
+
+.bSterge
+{
+	background-color : #ff0000; 
+    color: orange;
+    text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	width:115px;
+} 
+
+.bEgal
+{
+	background-color : #ff0000; 
+    color: orange;
+    text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	margin-left: 75px;
+	width:100px;
+	height:60px;
+	font: 30px arial, sans-serif;
+}
